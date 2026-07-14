@@ -12,6 +12,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Infrabaldan — Your Clients Are Already Asking for Infrared | Baldan</title>
   <meta name="description" content="Turn demand for infrared into a high-margin weekly revenue stream with Infrabaldan. Near and far infrared in one guided session — designed and manufactured in Italy." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Baldan" />
+  <meta property="og:title" content="Infrabaldan — Your Clients Are Already Asking for Infrared | Baldan" />
+  <meta property="og:description" content="Turn demand for infrared into a high-margin weekly revenue stream with Infrabaldan. Near and far infrared in one guided session — designed and manufactured in Italy." />
+  <meta property="og:image" content="assets/infrabaldan_device.jpeg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Infrabaldan — Your Clients Are Already Asking for Infrared | Baldan" />
+  <meta name="twitter:description" content="Turn demand for infrared into a high-margin weekly revenue stream with Infrabaldan. Near and far infrared in one guided session — designed and manufactured in Italy." />
+  <meta name="twitter:image" content="assets/infrabaldan_device.jpeg" />
   <link rel="icon" href="assets/favicon.png" />
   <!-- Google tag (gtag.js) — GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KRX2QPDLYJ"></script>
@@ -21,29 +30,10 @@
     gtag('js', new Date());
     gtag('config', 'G-KRX2QPDLYJ');
   </script>
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            bordeaux: '#4D0C12',
-            darkmaroon: '#1E100F',
-            maroon2: '#300F11',
-            cream: '#FDF9F9',
-            graybg: '#E5E2E2',
-          },
-          fontFamily: {
-            serif: ['"PT Serif"', 'Georgia', 'serif'],
-            sans: ['Inter', 'sans-serif'],
-          },
-        },
-      },
-    };
-  </script>
+  <link rel="stylesheet" href="assets/tailwind.css" />
   <style>
     html,body{overflow-x:clip;}
     body { background-color: #FDF9F9; }
@@ -52,6 +42,9 @@
     .ba-track{display:flex;transition:transform .5s ease;}
     .ba-slide{flex:0 0 100%;}
     @media(min-width:768px){.ba-slide{flex:0 0 33.3333%;}}
+      @media (prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important;scroll-behavior:auto!important;}}
+      html{scroll-behavior:smooth;}
+    #pilot,#aura,#about{scroll-margin-top:80px;}
   </style>
   <!-- Meta Pixel Code -->
   <script>
@@ -77,12 +70,19 @@
   <!-- ===================== STICKY NAV ===================== -->
   <header class="sticky top-0 z-50 grad-strip text-white">
     <div class="max-w-[1180px] mx-auto px-6 h-16 flex items-center justify-between">
-      <a href="#" class="block">
-        <img src="assets/logo.png" alt="Baldan — A World of Beauty" class="h-9 w-auto" style="filter:brightness(0) invert(1);" />
+      <a href="#about" class="block">
+        <img width="1080" height="240" src="assets/logo.png" alt="Baldan — A World of Beauty" class="h-9 w-auto" style="filter:brightness(0) invert(1);" />
       </a>
-      <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2_cTmwSKeTuoDooloUv-u2LeB6Iiy6f5E8-TAG2ygZ-LKRj7JFaZ8Jw2aHB02eE3fnctT-a_7D" target="_blank" rel="noopener" class="border border-white/60 px-4 py-2 text-[10px] font-semibold tracking-wide hover:bg-white hover:text-bordeaux transition">
+      <div class="flex items-center gap-6 md:gap-7">
+        <nav class="hidden md:flex items-center gap-6 lg:gap-8 text-[11px] font-semibold tracking-[0.16em] text-white/80">
+          <a href="#pilot" class="hover:text-white transition">US PILOT</a>
+          <a href="#aura" class="hover:text-white transition">AURA</a>
+          <a href="#about" class="hover:text-white transition">ABOUT BALDAN</a>
+        </nav>
+        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2_cTmwSKeTuoDooloUv-u2LeB6Iiy6f5E8-TAG2ygZ-LKRj7JFaZ8Jw2aHB02eE3fnctT-a_7D" target="_blank" rel="noopener" class="border border-white/60 px-4 py-2 text-[10px] font-semibold tracking-wide hover:bg-white hover:text-bordeaux transition">
         BOOK YOUR CALL
       </a>
+      </div>
     </div>
   </header>
 
@@ -96,17 +96,17 @@
             PARTNER OFFER — APPLICATIONS CLOSE JULY 17, 2026
           </span>
           <h1 class="font-serif font-bold leading-[1.04] text-[40px] md:text-[54px]">
-            One Partnership. High-End Technology. New Clients Included.
+            One Partnership. High-End Technology. AI Marketing Engine Included.
           </h1>
           <p class="mt-7 text-[18px] md:text-[20px] font-light text-white/90 max-w-[560px]">
-            Partner with Baldan: Infrabaldan turns every 40-minute session into recurring revenue, and Aura — our AI platform — brings you new clients, cutting the cost of a web agency for 12 months.*
+            Partner with Baldan: Infrabaldan turns every 40-minute session into recurring revenue, and Aura — our AI platform — runs your marketing for you, cutting the cost of a web agency for 12 months.*
           </p>
 
           <div class="mt-9 border-l-2 border-white/25 pl-5">
             <div class="text-[10px] tracking-[0.28em] font-semibold text-white/55 mb-3">PARTNER OFFER · UNTIL JULY 17, 2026</div>
             <ul class="space-y-3 text-[14px] text-white/85">
               <li class="flex items-center gap-3"><span class="text-white">✓</span> <span><strong class="font-semibold text-white">Recurring revenue</strong> from every 40-minute session</span></li>
-              <li class="flex items-center gap-3"><span class="text-white">✓</span> <span><strong class="font-semibold text-white">Aura books new clients for you</strong> — ads on Meta run automatically</span></li>
+              <li class="flex items-center gap-3"><span class="text-white">✓</span> <span><strong class="font-semibold text-white">AI-powered marketing engine included</strong> — Aura runs your Meta ad campaigns automatically</span></li>
               <li class="flex items-center gap-3"><span class="text-white">✓</span> <span><strong class="font-semibold text-white">$0</strong> upfront &middot; first <strong class="font-semibold text-white">12 capital rates funded</strong></span></li>
             </ul>
             <p class="mt-3 text-[10px] text-white/45">*Ad budget excluded.</p>
@@ -127,9 +127,9 @@
           <figure class="relative mx-auto max-w-[340px] lg:max-w-none">
             <div class="rounded-2xl border border-white/15 bg-white/5 p-3 shadow-2xl backdrop-blur-sm">
               <div class="rounded-xl overflow-hidden">
-                <img src="assets/infrabaldan_device.jpeg" alt="The Infrabaldan device" class="w-full object-cover" />
+                <img width="1023" height="1537" src="assets/infrabaldan_device.jpeg" alt="The Infrabaldan device" class="w-full object-cover" />
                 <div class="bg-white px-4 py-3 flex items-center gap-3">
-                  <img src="assets/realself-logo.png" alt="RealSelf" class="h-4 w-auto shrink-0" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'font-bold text-darkmaroon text-[13px] tracking-tight',textContent:'REALSELF'}))" />
+                  <img width="1085" height="147" src="assets/realself-logo.png" alt="RealSelf" class="h-4 w-auto shrink-0" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'font-bold text-darkmaroon text-[13px] tracking-tight',textContent:'REALSELF'}))" />
                   <span class="text-[10px] leading-snug text-darkmaroon/80">Baldan Technologies are the most requested in U.S. aesthetics, according to RealSelf.</span>
                 </div>
               </div>
@@ -155,7 +155,7 @@
           <div class="mt-2 text-[13px] md:text-[15px] text-white/80">the average cost of a U.S. marketing agency*</div>
           <h2 class="font-serif font-bold text-[26px] md:text-[34px] mt-6 leading-snug">Wiped out by AURA — your new marketing agency, included for 12 months.</h2>
           <p class="mt-5 text-[15px] leading-relaxed text-white/85 max-w-[600px]">
-            Aura is an AI-empowered platform that brings you new clients automatically: it creates and runs your ad
+            Aura is your new AI-powered marketing engine, included: it creates and runs your ad
             campaigns on Meta — Facebook and Instagram — and optimizes them on its own, while you do what you do best.
           </p>
           <div class="mt-5 flex items-center gap-2.5 text-[13px] text-white/70">
@@ -170,7 +170,7 @@
           <p class="mt-5 text-[10px] text-white/40">*Industry estimate. Ad budget excluded. Terms and conditions apply.</p>
         </div>
         <div class="lg:col-span-5">
-          <img src="assets/aura-campaigns.png" alt="The Aura dashboard — one campaign live on Meta, one launching"
+          <img width="900" height="1000" src="assets/aura-campaigns.png" alt="The Aura dashboard — one campaign live on Meta, one launching"
                class="w-full max-w-[420px] mx-auto rounded-2xl shadow-2xl" />
         </div>
       </div>
@@ -224,10 +224,10 @@
       <div class="relative">
         <div class="overflow-hidden rounded-xl">
           <div id="baTrack" class="ba-track">
-            <div class="ba-slide px-1.5"><img src="assets/ba-1.jpg" alt="Infrabaldan before and after — back" class="w-full rounded-lg object-cover" loading="lazy" /></div>
-            <div class="ba-slide px-1.5"><img src="assets/ba-2.jpg" alt="Infrabaldan before and after — front" class="w-full rounded-lg object-cover" loading="lazy" /></div>
-            <div class="ba-slide px-1.5"><img src="assets/ba-3.jpg" alt="Infrabaldan before and after — profile" class="w-full rounded-lg object-cover" loading="lazy" /></div>
-            <div class="ba-slide px-1.5"><img src="assets/ba-4.jpg" alt="Infrabaldan before and after — side" class="w-full rounded-lg object-cover" loading="lazy" /></div>
+            <div class="ba-slide px-1.5"><img width="1170" height="1052" src="assets/ba-1.jpg" alt="Infrabaldan before and after — back" class="w-full rounded-lg object-cover" loading="lazy" /></div>
+            <div class="ba-slide px-1.5"><img width="1170" height="1052" src="assets/ba-2.jpg" alt="Infrabaldan before and after — front" class="w-full rounded-lg object-cover" loading="lazy" /></div>
+            <div class="ba-slide px-1.5"><img width="1170" height="1052" src="assets/ba-3.jpg" alt="Infrabaldan before and after — profile" class="w-full rounded-lg object-cover" loading="lazy" /></div>
+            <div class="ba-slide px-1.5"><img width="1170" height="1052" src="assets/ba-4.jpg" alt="Infrabaldan before and after — side" class="w-full rounded-lg object-cover" loading="lazy" /></div>
           </div>
         </div>
         <button type="button" id="baPrev" aria-label="Previous" class="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white shadow-md text-bordeaux font-bold hover:bg-white/90 transition">&#8249;</button>
@@ -269,7 +269,7 @@
   </script>
 
   <!-- ===================== THE OFFER (RISK REVERSAL, BELOW HERO) ===================== -->
-  <section class="bg-darkmaroon text-white">
+  <section id="pilot" class="bg-darkmaroon text-white">
     <div class="max-w-[1180px] mx-auto px-6 py-14">
       <div class="mb-9 flex items-center gap-4 text-white">
         <span class="text-[11px] tracking-[0.28em] font-bold text-white/60">LIMITED-TIME PARTNER OFFER</span>
@@ -423,11 +423,11 @@
   </section>
 
   <!-- ===================== HERITAGE / TRUST ===================== -->
-  <section class="bg-graybg">
+  <section id="about" class="bg-graybg">
     <div class="max-w-[1180px] mx-auto px-6 py-20">
       <div class="flex flex-col md:flex-row md:items-center gap-10 md:gap-16">
         <div class="shrink-0">
-          <img src="assets/logo.png" alt="Baldan — A World of Beauty" class="h-16 w-auto mx-auto md:mx-0" />
+          <img width="1080" height="240" src="assets/logo.png" alt="Baldan — A World of Beauty" class="h-16 w-auto mx-auto md:mx-0" />
         </div>
         <h2 class="font-serif font-bold text-[28px] md:text-[34px] leading-[1.15] text-darkmaroon">
           Over 45 years of Italian Medical &amp; Technological Excellence
@@ -435,7 +435,7 @@
       </div>
 
       <div class="mt-12 overflow-hidden rounded-lg shadow-xl">
-        <img src="assets/sede.jpeg" alt="Baldan headquarters, Italy" class="w-full h-[260px] md:h-[320px] object-cover" />
+        <img width="2048" height="854" src="assets/sede.jpeg" alt="Baldan headquarters, Italy" class="w-full h-[260px] md:h-[320px] object-cover" />
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 text-center mt-16">
